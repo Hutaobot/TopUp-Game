@@ -92,7 +92,7 @@ nav ul li a:hover
 
 .slider h4
 {
-    margin-top: 45%;
+    margin-top: 20%;
 }
 
 .slides
@@ -109,7 +109,7 @@ nav ul li a:hover
 
 .slide
 {
-    width: 70rem;
+    width: 50rem;
     transition: .5s;
 }
 
