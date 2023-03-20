@@ -1,8 +1,8 @@
 :root
 {
-    --blue : #300042;
-    --dark-blue : #520066;
-    --green : rgb(232, 232, 232);
+    --blue : #2C2546;
+    --dark-blue : #1B1535;
+    --green : #00EB09;
     --white : rgb(255, 255, 255);
 }
 
@@ -31,14 +31,15 @@ header
     position: fixed;
     width: 100%;
     font-weight: bold;
-    padding: 1%;
+    font-size: 15pt;
+    padding: 2%;
     top: 0;
 }
 .title
 {
     color: var(--green);
     border-bottom: 1px solid var(--white);
-    font-size: 20pt;
+    font-size: 15pt;
 }
 .input-search
 {
@@ -52,21 +53,22 @@ header
 {
     margin-left: -5px;
     border: 0;
-    border-radius: 0 15px 0 0;
+    border-radius: 0 10px 0 0;
     padding: 2px;
     background-color: var(--green);
     color: var(--blue);
-    width: 7%;
+    width: 10%;
+    font-weight: bold;
 }
 nav
 {
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 nav ul
 {
     display: flex;
-    gap: 30px;
+    gap: 7px;
     justify-content: center;
 
 }
@@ -76,21 +78,21 @@ nav ul li a
 }
 nav ul li a:hover
 {
-    border-bottom: 2px solid var(--white);
+    border-bottom: 1px solid var(--white);
 }
 
 .slider
 {
     margin-top: 10%;
     display: block;
-    margin-left: auto !important;
+    margin-left: 5%;
     margin-right: auto !important;
     width: 65%;
 }
 
 .slider h4
 {
-    margin-top: 20%;
+    margin-top: 45%;
 }
 
 .slides
@@ -107,7 +109,7 @@ nav ul li a:hover
 
 .slide
 {
-    width: 50rem;
+    width: 70rem;
     transition: .5s;
 }
 
