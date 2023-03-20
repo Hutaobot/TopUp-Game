@@ -85,8 +85,8 @@ nav ul li a:hover
 {
     margin-top: 10%;
     display: block;
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: auto !important;
+    margin-right: auto !important;
     width: 65%;
 }
 
